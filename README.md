@@ -7,7 +7,7 @@ all programs should all be small enough to be run absolutely seamlessly on any h
 so that when pressed within File Explorer the current folder will be opened in the default 
 Terminal ("wt") set within Win11. Any recent version of Powershell  should be linked to the 
 wt shortcut as required. The utility has a few ergonomic cmdline params that can be parsed on 
-startup, see helpfile as needed. Currently comes in at under 70kb which makes it roughly 1715
+startup, see helpfile as needed. Currently comes in at under 90kb which makes it roughly 1715
 times smaller than an optimized (120mb) Electron application. Averages at about 1mb of RAM usage.
 ![feqt demonstration](https://github.com/user-attachments/assets/a6df8193-37fe-45df-87af-ae275732de2c)
 
