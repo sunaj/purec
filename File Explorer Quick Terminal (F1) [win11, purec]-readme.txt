@@ -19,4 +19,15 @@ Command-line parameters:
 --notrayicon
   Hides the application icon from the system tray.
   
+Compilation, updated 2025-10-19:
+
+This code was compiled under Win11 using Mingw 15.2.0
+Example: 
+   gcc "File Explorer Quick Terminal (F1) [win11, purec].c" -o "File Explorer Quick Terminal (F1) [win11, purec].exe" -lcomctl32 -lshell32 -mwindows
+Or with icon:
+   gcc "File Explorer Quick Terminal (F1) [win11, purec].c" FEQT.o -o "File Explorer Quick Terminal (F1) [win11, purec].exe" -lcomctl32 -lshell32 -mwindows
+Icon resource creation, FEQT.rc, contents:
+   1 ICON "FEQT.ico"
+Icon resource pre-gen:
+   windres FEQT.rc -O coff -o FEQT.o
 
