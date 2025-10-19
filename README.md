@@ -9,7 +9,7 @@ Terminal ("wt") set within Win11. Any recent version of Powershell  should be li
 wt shortcut as required. The utility has a few ergonomic cmdline params that can be parsed on 
 startup, see helpfile as needed. Currently comes in at under 70kb which makes it roughly 1715
 times smaller than an optimized (120mb) Electron application. Averages at about 1mb of RAM usage.
-https://github.com/user-attachments/assets/9fe4a124-5c31-440e-bdca-3363858c3049
+[![Watch the video](https://github.com/sunaj/media-cache/blob/main/small-clip-demonstrating-feqt_compressed_v2_snapshot.jpg?raw=true)](https://github.com/user-attachments/assets/9fe4a124-5c31-440e-bdca-3363858c3049)
 
 
 
