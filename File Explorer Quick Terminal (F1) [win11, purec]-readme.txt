@@ -14,10 +14,15 @@ Command-line parameters:
 --fhotkey<N>
   Sets the hotkey to the specified F-key. Replace <N> with a number from 1 to 12.
   Example: --fhotkey2 sets the hotkey to F2.
-  If not specified, the default hotkey is F1 (since how often did you need the Help file on Explorer?)
+  If not specified, the default hotkey is F1.
 
 --notrayicon
   Hides the application icon from the system tray.
+
+--timing<XX>
+  Sets the sleep time in milliseconds between simulated keypresses. Replace <XX> with a number from 01 to 99.
+  Example: --timing50 sets the sleep time to 50ms.
+  If not specified, the default sleep time is 33ms.
   
 Compilation, updated 2025-10-19:
 
@@ -30,4 +35,5 @@ Icon resource creation, FEQT.rc, contents:
    1 ICON "FEQT.ico"
 Icon resource pre-gen:
    windres FEQT.rc -O coff -o FEQT.o
+
 
