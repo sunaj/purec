@@ -11,15 +11,15 @@ startup, see helpfile as needed. Currently comes in at under 70kb which makes it
 times smaller than an optimized (120mb) Electron application. Averages at about 1mb of RAM usage.
 
 ### How to compile:
-* **FEQT:**
-  ```
-  This code was compiled under Win11 using Mingw 15.2.0
-  Example: 
-     gcc "File Explorer Quick Terminal (F1) [win11, purec].c" -o "File Explorer Quick Terminal (F1) [win11, purec].exe" -lcomctl32 -lshell32 -mwindows
-  Or with icon:
-     gcc "File Explorer Quick Terminal (F1) [win11, purec].c" FEQT.o -o "File Explorer Quick Terminal (F1) [win11, purec].exe" -lcomctl32 -lshell32 -mwindows
-  Icon resource creation, FEQT.rc, contents:
-     1 ICON "FEQT.ico"
-  Icon resource pre-gen:
-     windres FEQT.rc -O coff -o FEQT.o
-  ```
+**FEQT:**
+```
+This code was compiled under Win11 using Mingw 15.2.0
+Example: 
+   gcc "File Explorer Quick Terminal (F1) [win11, purec].c" -o "File Explorer Quick Terminal (F1) [win11, purec].exe" -lcomctl32 -lshell32 -mwindows
+Or with icon:
+   gcc "File Explorer Quick Terminal (F1) [win11, purec].c" FEQT.o -o "File Explorer Quick Terminal (F1) [win11, purec].exe" -lcomctl32 -lshell32 -mwindows
+Icon resource creation, FEQT.rc, contents:
+   1 ICON "FEQT.ico"
+Icon resource pre-gen:
+   windres FEQT.rc -O coff -o FEQT.o
+```
