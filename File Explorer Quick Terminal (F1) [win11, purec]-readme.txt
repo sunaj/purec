@@ -14,8 +14,9 @@ Command-line parameters:
 --fhotkey<N>
   Sets the hotkey to the specified F-key. Replace <N> with a number from 1 to 12.
   Example: --fhotkey2 sets the hotkey to F2.
-  If not specified, the default hotkey is F1.
+  If not specified, the default hotkey is F1 (since how often did you need the Help file on Explorer?)
 
 --notrayicon
   Hides the application icon from the system tray.
   
+
